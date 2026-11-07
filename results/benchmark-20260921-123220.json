@@ -1,0 +1,2356 @@
+{
+  "runId": "20260921-123220",
+  "generatedAt": "2026-09-21T12:32:20Z",
+  "metadata": {
+    "GoVersion": "go1.27.0",
+    "OS": "darwin",
+    "Architecture": "arm64",
+    "CPUCount": 8,
+    "GOMAXPROCS": 8
+  },
+  "results": [
+    {
+      "Target": "SHA-256",
+      "Operation": "hash",
+      "InputSize": 1024,
+      "BatchSize": 1,
+      "ExecutionOrder": "baseline-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 13750
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 541
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 542
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 500
+        },
+        {
+          "DurationNS": 541
+        },
+        {
+          "DurationNS": 500
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 958.3333333333334,
+        "MedianNS": 500,
+        "StdDevNS": 2416.0473039062467,
+        "MinNS": 500,
+        "MaxNS": 13750,
+        "CoVPercent": 252.10928388586922,
+        "Confidence95LowerNS": 56.1664433568788,
+        "Confidence95UpperNS": 1860.500223309788,
+        "OutlierCount": 1
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 515.2666666666667,
+        "MedianNS": 500,
+        "StdDevNS": 20.409486187476197,
+        "MinNS": 500,
+        "MaxNS": 542,
+        "CoVPercent": 3.960956046217402,
+        "Confidence95LowerNS": 507.6456392761834,
+        "Confidence95UpperNS": 522.8876940571499,
+        "OutlierCount": 0
+      }
+    },
+    {
+      "Target": "SHA-256",
+      "Operation": "hash",
+      "InputSize": 4096,
+      "BatchSize": 1,
+      "ExecutionOrder": "framework-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1834
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1834
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1834
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 2583
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1916
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1833
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1834
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1833
+        },
+        {
+          "DurationNS": 1875
+        },
+        {
+          "DurationNS": 1875
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 1894.5,
+        "MedianNS": 1875,
+        "StdDevNS": 130.63498765644678,
+        "MinNS": 1834,
+        "MaxNS": 2583,
+        "CoVPercent": 6.895486284320232,
+        "Confidence95LowerNS": 1845.7200939337642,
+        "Confidence95UpperNS": 1943.2799060662358,
+        "OutlierCount": 4
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 1872.2,
+        "MedianNS": 1875,
+        "StdDevNS": 15.148460716157464,
+        "MinNS": 1833,
+        "MaxNS": 1916,
+        "CoVPercent": 0.8091261999870455,
+        "Confidence95LowerNS": 1866.5434718061479,
+        "Confidence95UpperNS": 1877.8565281938522,
+        "OutlierCount": 4
+      }
+    },
+    {
+      "Target": "SHA-256",
+      "Operation": "hash",
+      "InputSize": 16384,
+      "BatchSize": 1000,
+      "ExecutionOrder": "baseline-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 7791
+        },
+        {
+          "DurationNS": 7291
+        },
+        {
+          "DurationNS": 7333
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7334
+        },
+        {
+          "DurationNS": 7334
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7333
+        },
+        {
+          "DurationNS": 7291
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7375
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7291
+        },
+        {
+          "DurationNS": 7250
+        },
+        {
+          "DurationNS": 7375
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7291
+        },
+        {
+          "DurationNS": 7375
+        },
+        {
+          "DurationNS": 7333
+        },
+        {
+          "DurationNS": 7333
+        },
+        {
+          "DurationNS": 16792
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 7291
+        },
+        {
+          "DurationNS": 7292
+        },
+        {
+          "DurationNS": 20125
+        },
+        {
+          "DurationNS": 7459
+        },
+        {
+          "DurationNS": 7375
+        },
+        {
+          "DurationNS": 7375
+        },
+        {
+          "DurationNS": 7416
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 13801.875
+        },
+        {
+          "DurationNS": 7058.166
+        },
+        {
+          "DurationNS": 7021.833
+        },
+        {
+          "DurationNS": 6999.5
+        },
+        {
+          "DurationNS": 6944.167
+        },
+        {
+          "DurationNS": 6923.167
+        },
+        {
+          "DurationNS": 6950.375
+        },
+        {
+          "DurationNS": 6938.375
+        },
+        {
+          "DurationNS": 6960.375
+        },
+        {
+          "DurationNS": 7055.334
+        },
+        {
+          "DurationNS": 6885.167
+        },
+        {
+          "DurationNS": 6798.084
+        },
+        {
+          "DurationNS": 6805.334
+        },
+        {
+          "DurationNS": 6946.125
+        },
+        {
+          "DurationNS": 6938.833
+        },
+        {
+          "DurationNS": 6891.583
+        },
+        {
+          "DurationNS": 7123.791
+        },
+        {
+          "DurationNS": 6917.333
+        },
+        {
+          "DurationNS": 7035.75
+        },
+        {
+          "DurationNS": 6836.875
+        },
+        {
+          "DurationNS": 6859.75
+        },
+        {
+          "DurationNS": 6798.25
+        },
+        {
+          "DurationNS": 6859.833
+        },
+        {
+          "DurationNS": 6826.25
+        },
+        {
+          "DurationNS": 6946.208
+        },
+        {
+          "DurationNS": 6948.5
+        },
+        {
+          "DurationNS": 6796.667
+        },
+        {
+          "DurationNS": 6824.667
+        },
+        {
+          "DurationNS": 6791.334
+        },
+        {
+          "DurationNS": 6871.417
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 8083.3,
+        "MedianNS": 7333,
+        "StdDevNS": 2855.6655743300535,
+        "MinNS": 7250,
+        "MaxNS": 20125,
+        "CoVPercent": 35.32796722044281,
+        "Confidence95LowerNS": 7016.976950016315,
+        "Confidence95UpperNS": 9149.623049983686,
+        "OutlierCount": 3
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 7145.163933333334,
+        "MedianNS": 6930.771000000001,
+        "StdDevNS": 1260.3408275833342,
+        "MinNS": 6791.334,
+        "MaxNS": 13801.875,
+        "CoVPercent": 17.639075035124698,
+        "Confidence95LowerNS": 6674.544933906935,
+        "Confidence95UpperNS": 7615.782932759734,
+        "OutlierCount": 1
+      }
+    },
+    {
+      "Target": "AES-GCM",
+      "Operation": "encrypt",
+      "InputSize": 1024,
+      "BatchSize": 1,
+      "ExecutionOrder": "framework-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 375
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 250
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 291
+        },
+        {
+          "DurationNS": 292
+        },
+        {
+          "DurationNS": 292
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 281.96666666666664,
+        "MedianNS": 292,
+        "StdDevNS": 17.94144370720625,
+        "MinNS": 250,
+        "MaxNS": 292,
+        "CoVPercent": 6.362966204234397,
+        "Confidence95LowerNS": 275.26722148409584,
+        "Confidence95UpperNS": 288.66611184923744,
+        "OutlierCount": 7
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 284.76666666666665,
+        "MedianNS": 292,
+        "StdDevNS": 24.686563891753117,
+        "MinNS": 250,
+        "MaxNS": 375,
+        "CoVPercent": 8.669049710319484,
+        "Confidence95LowerNS": 275.5485522140151,
+        "Confidence95UpperNS": 293.9847811193182,
+        "OutlierCount": 8
+      }
+    },
+    {
+      "Target": "AES-GCM",
+      "Operation": "encrypt",
+      "InputSize": 4096,
+      "BatchSize": 1,
+      "ExecutionOrder": "baseline-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 3167
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 959
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 916
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 1083
+        },
+        {
+          "DurationNS": 958
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 833
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 1000
+        },
+        {
+          "DurationNS": 959
+        },
+        {
+          "DurationNS": 917
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 916
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 917
+        },
+        {
+          "DurationNS": 959
+        },
+        {
+          "DurationNS": 1000
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        },
+        {
+          "DurationNS": 875
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 976.4333333333333,
+        "MedianNS": 875,
+        "StdDevNS": 416.6778862857258,
+        "MinNS": 833,
+        "MaxNS": 3167,
+        "CoVPercent": 42.67345983194543,
+        "Confidence95LowerNS": 820.8432535428495,
+        "Confidence95UpperNS": 1132.023413123817,
+        "OutlierCount": 3
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 890.3333333333334,
+        "MedianNS": 875,
+        "StdDevNS": 30.01647057445506,
+        "MinNS": 875,
+        "MaxNS": 1000,
+        "CoVPercent": 3.371374456134975,
+        "Confidence95LowerNS": 879.1249990170129,
+        "Confidence95UpperNS": 901.5416676496538,
+        "OutlierCount": 1
+      }
+    },
+    {
+      "Target": "AES-GCM",
+      "Operation": "encrypt",
+      "InputSize": 16384,
+      "BatchSize": 10,
+      "ExecutionOrder": "framework-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 3916
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3041
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3084
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3167
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3167
+        },
+        {
+          "DurationNS": 3166
+        },
+        {
+          "DurationNS": 3125
+        },
+        {
+          "DurationNS": 3041
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3167
+        },
+        {
+          "DurationNS": 3041
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3125
+        },
+        {
+          "DurationNS": 3042
+        },
+        {
+          "DurationNS": 3041
+        },
+        {
+          "DurationNS": 3083
+        },
+        {
+          "DurationNS": 3167
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 3237.5
+        },
+        {
+          "DurationNS": 3058.4
+        },
+        {
+          "DurationNS": 3054.2
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3062.5
+        },
+        {
+          "DurationNS": 3054.2
+        },
+        {
+          "DurationNS": 3045.9
+        },
+        {
+          "DurationNS": 3058.4
+        },
+        {
+          "DurationNS": 3058.4
+        },
+        {
+          "DurationNS": 3062.5
+        },
+        {
+          "DurationNS": 3054.2
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3137.5
+        },
+        {
+          "DurationNS": 3166.6
+        },
+        {
+          "DurationNS": 3166.7
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3062.5
+        },
+        {
+          "DurationNS": 3058.4
+        },
+        {
+          "DurationNS": 3062.5
+        },
+        {
+          "DurationNS": 3054.2
+        },
+        {
+          "DurationNS": 3054.2
+        },
+        {
+          "DurationNS": 3054.1
+        },
+        {
+          "DurationNS": 3058.3
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3058.3
+        },
+        {
+          "DurationNS": 3054.1
+        },
+        {
+          "DurationNS": 3050
+        },
+        {
+          "DurationNS": 3054.1
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 3108.3,
+        "MedianNS": 3083,
+        "StdDevNS": 159.43805412588387,
+        "MinNS": 3041,
+        "MaxNS": 3916,
+        "CoVPercent": 5.129429402756615,
+        "Confidence95LowerNS": 3048.7648521566252,
+        "Confidence95UpperNS": 3167.835147843375,
+        "OutlierCount": 1
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 3071.2566666666667,
+        "MedianNS": 3054.2,
+        "StdDevNS": 44.594739780516186,
+        "MinNS": 3045.9,
+        "MaxNS": 3237.5,
+        "CoVPercent": 1.4520030274420628,
+        "Confidence95LowerNS": 3054.6047171654914,
+        "Confidence95UpperNS": 3087.908616167842,
+        "OutlierCount": 4
+      }
+    },
+    {
+      "Target": "ChaCha20-Poly1305",
+      "Operation": "encrypt",
+      "InputSize": 1024,
+      "BatchSize": 1,
+      "ExecutionOrder": "baseline-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 2416
+        },
+        {
+          "DurationNS": 1583
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1750
+        },
+        {
+          "DurationNS": 1583
+        },
+        {
+          "DurationNS": 1583
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1666
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1583
+        },
+        {
+          "DurationNS": 1583
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1541
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1541
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1541
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1500
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1625
+        },
+        {
+          "DurationNS": 1667
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 1625
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1416
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1416
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1459
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1416
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1416
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1416
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1541
+        },
+        {
+          "DurationNS": 1375
+        },
+        {
+          "DurationNS": 1458
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1417
+        },
+        {
+          "DurationNS": 1416
+        },
+        {
+          "DurationNS": 1542
+        },
+        {
+          "DurationNS": 1459
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 1586.0666666666666,
+        "MedianNS": 1542,
+        "StdDevNS": 166.87078075943782,
+        "MinNS": 1500,
+        "MaxNS": 2416,
+        "CoVPercent": 10.521044560512662,
+        "Confidence95LowerNS": 1523.756093085477,
+        "Confidence95UpperNS": 1648.3772402478562,
+        "OutlierCount": 4
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 1443,
+        "MedianNS": 1417,
+        "StdDevNS": 49.49747468305833,
+        "MinNS": 1375,
+        "MaxNS": 1625,
+        "CoVPercent": 3.4301784257143675,
+        "Confidence95LowerNS": 1424.5173391993173,
+        "Confidence95UpperNS": 1461.4826608006827,
+        "OutlierCount": 3
+      }
+    },
+    {
+      "Target": "ChaCha20-Poly1305",
+      "Operation": "encrypt",
+      "InputSize": 4096,
+      "BatchSize": 10,
+      "ExecutionOrder": "framework-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4791
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4834
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4791
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4958
+        },
+        {
+          "DurationNS": 4791
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4791
+        },
+        {
+          "DurationNS": 4833
+        },
+        {
+          "DurationNS": 4792
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4875
+        },
+        {
+          "DurationNS": 4833
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 4912.5
+        },
+        {
+          "DurationNS": 4812.5
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4908.3
+        },
+        {
+          "DurationNS": 6741.7
+        },
+        {
+          "DurationNS": 5237.5
+        },
+        {
+          "DurationNS": 5000
+        },
+        {
+          "DurationNS": 4820.8
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4829.2
+        },
+        {
+          "DurationNS": 4816.7
+        },
+        {
+          "DurationNS": 4816.6
+        },
+        {
+          "DurationNS": 4816.7
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4816.7
+        },
+        {
+          "DurationNS": 4816.6
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4816.7
+        },
+        {
+          "DurationNS": 4820.8
+        },
+        {
+          "DurationNS": 4825
+        },
+        {
+          "DurationNS": 4812.5
+        },
+        {
+          "DurationNS": 4820.9
+        },
+        {
+          "DurationNS": 4816.7
+        },
+        {
+          "DurationNS": 4820.8
+        },
+        {
+          "DurationNS": 4816.6
+        },
+        {
+          "DurationNS": 4820.8
+        },
+        {
+          "DurationNS": 4816.7
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 4840.033333333334,
+        "MedianNS": 4833,
+        "StdDevNS": 34.85287633045151,
+        "MinNS": 4791,
+        "MaxNS": 4958,
+        "CoVPercent": 0.7200957912917577,
+        "Confidence95LowerNS": 4827.019055427872,
+        "Confidence95UpperNS": 4853.047611238795,
+        "OutlierCount": 1
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 4910.276666666667,
+        "MedianNS": 4820.85,
+        "StdDevNS": 355.8377445848941,
+        "MinNS": 4812.5,
+        "MaxNS": 6741.7,
+        "CoVPercent": 7.2467962345277375,
+        "Confidence95LowerNS": 4777.4046691485055,
+        "Confidence95UpperNS": 5043.148664184828,
+        "OutlierCount": 5
+      }
+    },
+    {
+      "Target": "ChaCha20-Poly1305",
+      "Operation": "encrypt",
+      "InputSize": 16384,
+      "BatchSize": 1,
+      "ExecutionOrder": "baseline-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 22166
+        },
+        {
+          "DurationNS": 20042
+        },
+        {
+          "DurationNS": 19334
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18416
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18416
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18458
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18458
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18416
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18416
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18459
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18416
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18334
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18250
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18416
+        },
+        {
+          "DurationNS": 18417
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18458
+        },
+        {
+          "DurationNS": 18458
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18333
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 18375
+        },
+        {
+          "DurationNS": 19334
+        },
+        {
+          "DurationNS": 19084
+        },
+        {
+          "DurationNS": 19000
+        },
+        {
+          "DurationNS": 19833
+        },
+        {
+          "DurationNS": 19917
+        },
+        {
+          "DurationNS": 19042
+        },
+        {
+          "DurationNS": 19041
+        },
+        {
+          "DurationNS": 19083
+        },
+        {
+          "DurationNS": 19667
+        },
+        {
+          "DurationNS": 19667
+        },
+        {
+          "DurationNS": 21250
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 18599.9,
+        "MedianNS": 18375,
+        "StdDevNS": 756.5358596236875,
+        "MinNS": 18333,
+        "MaxNS": 22166,
+        "CoVPercent": 4.067418962594893,
+        "Confidence95LowerNS": 18317.40486733895,
+        "Confidence95UpperNS": 18882.39513266105,
+        "OutlierCount": 3
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 18804.166666666668,
+        "MedianNS": 18417,
+        "StdDevNS": 690.5741281258528,
+        "MinNS": 18250,
+        "MaxNS": 21250,
+        "CoVPercent": 3.67245270884566,
+        "Confidence95LowerNS": 18546.3020493381,
+        "Confidence95UpperNS": 19062.031283995235,
+        "OutlierCount": 1
+      }
+    },
+    {
+      "Target": "RSA",
+      "Operation": "sign",
+      "InputSize": 32,
+      "BatchSize": 1,
+      "ExecutionOrder": "framework-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 924250
+        },
+        {
+          "DurationNS": 925042
+        },
+        {
+          "DurationNS": 943959
+        },
+        {
+          "DurationNS": 973292
+        },
+        {
+          "DurationNS": 920125
+        },
+        {
+          "DurationNS": 923958
+        },
+        {
+          "DurationNS": 918083
+        },
+        {
+          "DurationNS": 931458
+        },
+        {
+          "DurationNS": 988375
+        },
+        {
+          "DurationNS": 921791
+        },
+        {
+          "DurationNS": 919375
+        },
+        {
+          "DurationNS": 920458
+        },
+        {
+          "DurationNS": 921125
+        },
+        {
+          "DurationNS": 919500
+        },
+        {
+          "DurationNS": 927417
+        },
+        {
+          "DurationNS": 919458
+        },
+        {
+          "DurationNS": 957708
+        },
+        {
+          "DurationNS": 921083
+        },
+        {
+          "DurationNS": 922542
+        },
+        {
+          "DurationNS": 965667
+        },
+        {
+          "DurationNS": 922708
+        },
+        {
+          "DurationNS": 918708
+        },
+        {
+          "DurationNS": 922208
+        },
+        {
+          "DurationNS": 919541
+        },
+        {
+          "DurationNS": 925416
+        },
+        {
+          "DurationNS": 1060125
+        },
+        {
+          "DurationNS": 966125
+        },
+        {
+          "DurationNS": 926875
+        },
+        {
+          "DurationNS": 922667
+        },
+        {
+          "DurationNS": 924291
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 929166
+        },
+        {
+          "DurationNS": 929333
+        },
+        {
+          "DurationNS": 939125
+        },
+        {
+          "DurationNS": 930500
+        },
+        {
+          "DurationNS": 946333
+        },
+        {
+          "DurationNS": 946334
+        },
+        {
+          "DurationNS": 1020417
+        },
+        {
+          "DurationNS": 985125
+        },
+        {
+          "DurationNS": 931250
+        },
+        {
+          "DurationNS": 927417
+        },
+        {
+          "DurationNS": 925500
+        },
+        {
+          "DurationNS": 929083
+        },
+        {
+          "DurationNS": 924666
+        },
+        {
+          "DurationNS": 925250
+        },
+        {
+          "DurationNS": 926208
+        },
+        {
+          "DurationNS": 929541
+        },
+        {
+          "DurationNS": 925375
+        },
+        {
+          "DurationNS": 928584
+        },
+        {
+          "DurationNS": 929292
+        },
+        {
+          "DurationNS": 924958
+        },
+        {
+          "DurationNS": 925666
+        },
+        {
+          "DurationNS": 930125
+        },
+        {
+          "DurationNS": 1662500
+        },
+        {
+          "DurationNS": 1029833
+        },
+        {
+          "DurationNS": 1035833
+        },
+        {
+          "DurationNS": 981750
+        },
+        {
+          "DurationNS": 976417
+        },
+        {
+          "DurationNS": 1295000
+        },
+        {
+          "DurationNS": 1183875
+        },
+        {
+          "DurationNS": 985792
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 935777.6666666666,
+        "MedianNS": 923333,
+        "StdDevNS": 30097.35412856469,
+        "MinNS": 918083,
+        "MaxNS": 1060125,
+        "CoVPercent": 3.216293271432141,
+        "Confidence95LowerNS": 924539.1299348788,
+        "Confidence95UpperNS": 947016.2033984545,
+        "OutlierCount": 6
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 992008.2666666667,
+        "MedianNS": 930312.5,
+        "StdDevNS": 150858.56360819042,
+        "MinNS": 924666,
+        "MaxNS": 1662500,
+        "CoVPercent": 15.207389764513094,
+        "Confidence95LowerNS": 935676.7532328563,
+        "Confidence95UpperNS": 1048339.7801004772,
+        "OutlierCount": 3
+      }
+    },
+    {
+      "Target": "RSA",
+      "Operation": "verify",
+      "InputSize": 32,
+      "BatchSize": 2,
+      "ExecutionOrder": "baseline-first",
+      "BaselineSamples": [
+        {
+          "DurationNS": 52750
+        },
+        {
+          "DurationNS": 31292
+        },
+        {
+          "DurationNS": 31750
+        },
+        {
+          "DurationNS": 30334
+        },
+        {
+          "DurationNS": 50042
+        },
+        {
+          "DurationNS": 29792
+        },
+        {
+          "DurationNS": 30541
+        },
+        {
+          "DurationNS": 29542
+        },
+        {
+          "DurationNS": 33459
+        },
+        {
+          "DurationNS": 29459
+        },
+        {
+          "DurationNS": 29584
+        },
+        {
+          "DurationNS": 29584
+        },
+        {
+          "DurationNS": 31084
+        },
+        {
+          "DurationNS": 29584
+        },
+        {
+          "DurationNS": 29542
+        },
+        {
+          "DurationNS": 29750
+        },
+        {
+          "DurationNS": 29584
+        },
+        {
+          "DurationNS": 29625
+        },
+        {
+          "DurationNS": 29584
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 30042
+        },
+        {
+          "DurationNS": 34125
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 29584
+        },
+        {
+          "DurationNS": 29542
+        },
+        {
+          "DurationNS": 29583
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 29625
+        },
+        {
+          "DurationNS": 29875
+        },
+        {
+          "DurationNS": 29583
+        }
+      ],
+      "FrameworkSamples": [
+        {
+          "DurationNS": 29562.5
+        },
+        {
+          "DurationNS": 29708.5
+        },
+        {
+          "DurationNS": 29583
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 30229.5
+        },
+        {
+          "DurationNS": 29542
+        },
+        {
+          "DurationNS": 29542
+        },
+        {
+          "DurationNS": 29562.5
+        },
+        {
+          "DurationNS": 29771
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 29521
+        },
+        {
+          "DurationNS": 29583.5
+        },
+        {
+          "DurationNS": 30187.5
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 29479
+        },
+        {
+          "DurationNS": 29479
+        },
+        {
+          "DurationNS": 29729
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 31583
+        },
+        {
+          "DurationNS": 29500
+        },
+        {
+          "DurationNS": 29708
+        },
+        {
+          "DurationNS": 30291.5
+        },
+        {
+          "DurationNS": 29583.5
+        },
+        {
+          "DurationNS": 29542
+        },
+        {
+          "DurationNS": 29729.5
+        },
+        {
+          "DurationNS": 30375
+        },
+        {
+          "DurationNS": 29437.5
+        },
+        {
+          "DurationNS": 29687.5
+        },
+        {
+          "DurationNS": 29521
+        }
+      ],
+      "BaselineStatistics": {
+        "MeanNS": 31578.033333333333,
+        "MedianNS": 29604.5,
+        "StdDevNS": 5518.90931555623,
+        "MinNS": 29459,
+        "MaxNS": 52750,
+        "CoVPercent": 17.47705202948958,
+        "Confidence95LowerNS": 29517.23872669319,
+        "Confidence95UpperNS": 33638.827939973475,
+        "OutlierCount": 4
+      },
+      "FrameworkStatistics": {
+        "MeanNS": 29731.283333333333,
+        "MedianNS": 29562.5,
+        "StdDevNS": 434.34875315559054,
+        "MinNS": 29437.5,
+        "MaxNS": 31583,
+        "CoVPercent": 1.460914916742322,
+        "Confidence95LowerNS": 29569.094843411807,
+        "Confidence95UpperNS": 29893.47182325486,
+        "OutlierCount": 5
+      }
+    }
+  ]
+}
